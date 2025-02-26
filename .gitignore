@@ -9,6 +9,7 @@ wp-config.php
 /wp-content/uploads/
 /wp-content/upgrade/
 /wp-content/cache/
+/wp-content/et-cache/
 
 # Ignore node_modules and vendor folders (if applicable)
 node_modules/
@@ -16,3 +17,6 @@ vendor/
 
 # Ignore system files
 .DS_Store
+
+# Ignore Backups
+/wp-content/ai1wm-backups
