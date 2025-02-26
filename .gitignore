@@ -1,18 +1,22 @@
-*.log
+# Ignore WordPress core files (if you're not tracking them)
+/wp-admin/
+/wp-includes/
+
+# Ignore configuration files
 wp-config.php
-wp-content/advanced-cache.php
-wp-content/backup-db/
-wp-content/backups/
-wp-content/blogs.dir/
-wp-content/cache/
-wp-content/upgrade/
-wp-content/uploads/
-wp-content/wp-cache-config.php
-wp-content/plugins/hello.php
 
-/.htaccess
-/license.txt
-/readme.html
-/sitemap.xml
-/sitemap.xml.gz
+# Ignore uploads and cache
+/wp-content/uploads/
+/wp-content/upgrade/
+/wp-content/cache/
+/wp-content/et-cache/
 
+# Ignore node_modules and vendor folders (if applicable)
+node_modules/
+vendor/
+
+# Ignore system files
+.DS_Store
+
+# Ignore Backups
+/wp-content/ai1wm-backups
