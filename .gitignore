@@ -1,0 +1,18 @@
+# Ignore WordPress core files (if you're not tracking them)
+/wp-admin/
+/wp-includes/
+
+# Ignore configuration files
+wp-config.php
+
+# Ignore uploads and cache
+/wp-content/uploads/
+/wp-content/upgrade/
+/wp-content/cache/
+
+# Ignore node_modules and vendor folders (if applicable)
+node_modules/
+vendor/
+
+# Ignore system files
+.DS_Store
